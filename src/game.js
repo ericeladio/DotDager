@@ -17,25 +17,25 @@ const BRICK_RED_TRANSPARENT = "rgba(128, 29, 12, 0.5)";
 
 //! MEDIA VARIABLES
 // Sounds
-let chopSound = new Audio("/DotDager/public/sounds/Chop_Log_Sound.mp3");
+let chopSound = new Audio("/sounds/Chop_Log_Sound.mp3");
 chopSound.volume = 0.7;
-let pauseSound = new Audio("/DotDager/public/sounds/Pause_Sound.mp3");
+let pauseSound = new Audio("'/sounds/Pause_Sound.mp3");
 pauseSound.volume = 0.3;
 // Sprites
 let manSprite = new Image();
-manSprite.src = "/DotDager/public/sprites/man.png";
+manSprite.src = "/sprites/man.png";
 let flippedManSprite = new Image();
-flippedManSprite.src = "/DotDager/public/sprites/flipped_man.png";
+flippedManSprite.src = "/sprites/flipped_man.png";
 let background = new Image();
-background.src = "/DotDager/public/images/background.png";
+background.src = "/images/background.png";
 let sBranch = new Image();
-sBranch.src = "/DotDager/public/sprites/branch.png";
+sBranch.src = "/sprites/branch.png";
 let sFlippedBranch = new Image();
-sFlippedBranch.src = "/DotDager/public/sprites/branch_flipped.png";
+sFlippedBranch.src = "/sprites/branch_flipped.png";
 let iTrunk = new Image();
-iTrunk.src = "/DotDager/public/images/trunk.png";
+iTrunk.src = "/images/trunk.png";
 // Fonts
-let pixelFont = new FontFace('PixelFont', 'url(/DotDager/public/fonts/PixelEmulator-xq08.ttf)');
+let pixelFont = new FontFace('PixelFont', 'url(/fonts/PixelEmulator-xq08.ttf)');
 document.fonts.add(pixelFont);
 
 
