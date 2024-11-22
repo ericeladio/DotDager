@@ -31,7 +31,7 @@ background.src = "/DotDager/images/background.png";
 let sBranch = new Image();
 sBranch.src = "/DotDager/sprites/branch.png";
 let sFlippedBranch = new Image();
-sFlippedBranch.src = "/Dotdager/sprites/branch_flipped.png";
+sFlippedBranch.src = "/DotDager/sprites/branch_flipped.png";
 let iTrunk = new Image();
 iTrunk.src = "/DotDager/images/trunk.png";
 // Fonts
