@@ -19,7 +19,7 @@ export function PortfolioPage() {
       "Wow, you're such a keen observer!" :
       "Oops, that's not the correct answer, but I appreciate your effort!"
     )
-    window.location.href = "/DotDager/lumberjack";
+    window.location.href = "/lumberjack";
   }
   return (
     <main className="flex overflow-hidden flex-col py-11 bg-black">
@@ -201,7 +201,7 @@ export function PortfolioPage() {
       </section>
       <div className="flex mt-28 w-full bg-sky-500 bg-opacity-20 min-h-[2px] max-md:mt-10 max-md:max-w-full" />
       <section
-        className="flex  pt-14 flex-col self-center  w-full max-w-[1040px] max-md:mt-10 max-md:max-w-full ml-8"
+        className="flex  pt-14 flex-col self-center  w-full max-w-[1040px] max-md:mt-10 max-md:max-w-full "
         id="interests"
       >
         <h2 className="self-start text-3xl font-medium uppercase text-sky-500 text-opacity-90">
