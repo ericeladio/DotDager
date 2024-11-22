@@ -19,7 +19,7 @@ const BRICK_RED_TRANSPARENT = "rgba(128, 29, 12, 0.5)";
 // Sounds
 let chopSound = new Audio("/sounds/Chop_Log_Sound.mp3");
 chopSound.volume = 0.7;
-let pauseSound = new Audio("'/sounds/Pause_Sound.mp3");
+let pauseSound = new Audio("/sounds/Pause_Sound.mp3");
 pauseSound.volume = 0.3;
 // Sprites
 let manSprite = new Image();

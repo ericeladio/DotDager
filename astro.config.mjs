@@ -6,6 +6,6 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(), tailwind()],
-  site: 'https://ericeladio.github.io',
-  base: 'DotDager',
+  site: 'https://ericeladio.github.io/DotDager',
+  base: '/DotDager/',
 });
