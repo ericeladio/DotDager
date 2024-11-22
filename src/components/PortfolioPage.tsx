@@ -23,7 +23,7 @@ export function PortfolioPage() {
   }
   return (
     <main className="flex overflow-hidden flex-col py-11 bg-black">
-      <nav className="flex gap-4 items-center self-end mr-52 text-base font-light tracking-wider text-white whitespace-nowrap max-md:mr-2.5 fixed top-1 z-10 backdrop-blur-md ">
+      <nav className="flex justify-center w-full  gap-4 items-center self-end  text-base font-light tracking-wider text-white whitespace-nowrap  fixed top-1 z-10 backdrop-blur-md md:content-unset md:w-auto md:mr-52 md:max-md:mr-2.5">
         <NavigationItem
           label="Home"
           isActive={activeNav === "home"}
@@ -91,7 +91,7 @@ export function PortfolioPage() {
         className="flex flex-col self-center mt-16 w-full max-w-[1040px] max-md:mt-10 max-md:max-w-full"
         id="videos"
       >
-        <h2 className="self-start text-3xl font-medium uppercase text-sky-500 text-opacity-90 ml-4">
+        <h2 className="self-start text-3xl font-medium uppercase text-sky-500 text-opacity-90">
           videos
         </h2>
         <div className="flex flex-col  mt-10 w-full shadow-sm bg-zinc-900 max-md:max-w-full">
@@ -201,7 +201,7 @@ export function PortfolioPage() {
       </section>
       <div className="flex mt-28 w-full bg-sky-500 bg-opacity-20 min-h-[2px] max-md:mt-10 max-md:max-w-full" />
       <section
-        className="flex  pt-14 flex-col self-center  w-full max-w-[1040px] max-md:mt-10 max-md:max-w-full "
+        className="flex  pt-14 flex-col self-center  w-full max-w-[1040px] max-md:mt-10 max-md:max-w-full ml-1"
         id="interests"
       >
         <h2 className="self-start text-3xl font-medium uppercase text-sky-500 text-opacity-90">
