@@ -19,7 +19,7 @@ export function PortfolioPage() {
       "Wow, you're such a keen observer!" :
       "Oops, that's not the correct answer, but I appreciate your effort!"
     )
-    window.location.href = "DotDager/lumberjack";
+    window.location.href = "/DotDager/lumberjack";
   }
   return (
     <main className="flex overflow-hidden flex-col py-11 bg-black">
